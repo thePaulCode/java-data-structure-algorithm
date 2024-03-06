@@ -41,5 +41,6 @@ public class BinarySearch {
         int result = findElement(myArray, 21); // Procura o elemento 21 no array
 
         printResult(result); // Imprime o resultado
+
     }
 }
