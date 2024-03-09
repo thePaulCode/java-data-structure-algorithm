@@ -7,7 +7,7 @@ public class ArrayOperations {
         int length = arr.length;
         for (int i = 0; i < length; i++) {
             // Imprime cada elemento do array seguido de um espaço
-            System.out.print(arr[i] + " ");
+            System.out.print(" \t "+arr[i] + " ");
         }
         // Imprime uma nova linha após imprimir todos os elementos do array
         System.out.println();

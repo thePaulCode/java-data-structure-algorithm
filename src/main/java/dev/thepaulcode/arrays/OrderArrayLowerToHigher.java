@@ -32,13 +32,16 @@ public class OrderArrayLowerToHigher {
         return result; // Retorna o array ordenado
     }
 
+
     public static void main(String Args[]){
         OrderArrayLowerToHigher sorter = new OrderArrayLowerToHigher();
-        int[] myArray = {100, 0, 50, 2, 900}; // Array original
+        int[] myArray = {100, 0, 50, 21, 900}; // Array original
 
         // Ordena o array e imprime o resultado
+
         int[] sortedResult = sorter.orderBySelection(myArray);
-        System.out.println(Arrays.toString(sortedResult));
+       System.out.println(Arrays.toString(sortedResult));
+
     }
 }
 
